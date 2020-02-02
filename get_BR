@@ -1,7 +1,8 @@
 #!/bin/bash
 set -e
 rm -f buildroot-2019.08.1.tar.bz2
+rm -rf buildroot-2019.08.1
 wget https://buildroot.org/downloads/buildroot-2019.08.1.tar.bz2
 tar -xjf buildroot-2019.08.1.tar.bz2
-cp BR.conf buildroot-2019.08.1.tar.bz2/.config
+cp BR.conf buildroot-2019.08.1/.config
 
