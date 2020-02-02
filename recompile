@@ -1,0 +1,7 @@
+#!/bin/bash
+set -e
+(
+ cd /home/wzab/BR-RockPi4/buildroot-2019.08.1
+ rm dl/linux/*
+ make linux-dirclean all
+)

@@ -1,0 +1,6 @@
+#!/bin/bash
+( 
+ cd linux
+ git archive --format=tar rockchip/isp/v13_wz --prefix=linux-wz/ | gzip > /tmp/linux-rockchip-isp-v13.tar.gz
+)
+

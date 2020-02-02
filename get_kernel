@@ -1,0 +1,8 @@
+#!/bin/bash
+set -e
+git clone git@github.com:wzab/linux.git
+(
+  cd linux
+  git checkout rockchip/isp/v13_wz
+)
+
